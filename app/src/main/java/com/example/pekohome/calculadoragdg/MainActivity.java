@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         if(num2!=0){
             resultado= num1 / num2;
         }
-        // Ocultamos el digitador de numero del dispositivo
+        // Ocultamos el digitador de numero del dispositivo.
         View view = this.getCurrentFocus();
         if (view != null) {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
